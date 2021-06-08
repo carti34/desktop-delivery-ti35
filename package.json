@@ -40,13 +40,16 @@
     "react-test-renderer": "^16.8.6"
   },
   "dependencies": {
+    "@lourenci/react-kanban": "^2.1.0",
     "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "electron-is-dev": "^1.1.0",
+    "formik": "^2.2.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "yup": "^0.32.9"
   },
   "build": {
     "appId": "com.karmadust.electrate",

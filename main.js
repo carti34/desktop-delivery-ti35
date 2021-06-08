@@ -23,6 +23,7 @@ const createWindow = () => {
     slashes: true
   }));
 
+  mainWindow.webContents.toggleDevTools();
   mainWindow.setMenu(null);
 
   mainWindow.on('closed', () => {
